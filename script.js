@@ -17,6 +17,9 @@ document.getElementById('fortuneButton').addEventListener('click', function() {
 const randomIndex = Math.floor(Math.random() * fortunes.length);
 const selectedFortune = fortunes[randomIndex];
 
-
 document.getElementById('fortune').textContent = selectedFortune;
+});
+
+document.getElementById('resetButton').addEventListener('click', function() {
+    document.getElementById('fortune').textContent = "Click the button for your fortune.";
 });
