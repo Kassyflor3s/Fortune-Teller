@@ -7,7 +7,8 @@ const fortunes = [
     "Laugh long, loud, and often.",
     "The stat of riches is shining on you",
     "If you don't like the fortune don't eat the cookie.",
-    "You will be hungry again in 10 minutes."
+    "You will be hungry again in 10 minutes.",
+    "Love will come soon"
 ];
 
 
